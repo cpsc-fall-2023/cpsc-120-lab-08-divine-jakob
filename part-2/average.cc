@@ -10,7 +10,7 @@
 int main(int argc, char* argv[]) {
   std::vector<std::string> arguments{argv, argv + argc};
 
-  if (arugments.size() < 2 || arguments.empty()) {
+  if (arguments.size() < 2 || arguments.empty()) {
     std::cout << "Error: you must supply at least one argument\n";
     return 2;
   }
